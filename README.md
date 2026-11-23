@@ -39,7 +39,6 @@ Components never hard-code copy.
   - **Google Maps link:** replace `googleMapsUrl` with the exact place link.
   - **Neon colour:** `--neon` in [`src/app/globals.css`](src/app/globals.css) is a guess;
     match it to Juno's pieces.
-  - **Credit:** `footer.credit` ("Website concept by [YOUR NAME]").
 - `noindex: true` keeps search engines away while this is a pitch. Set it to `false` when
   the owner adopts the site.
 - Reviews are real Google reviews quoted exactly. Don't edit, merge, or invent them.

@@ -373,8 +373,7 @@ export const site = {
   },
 
   footer: {
-    // TODO put your name here before sending the pitch.
-    credit: { en: "Website concept by [YOUR NAME]" } satisfies L,
+    credit: { en: "Website concept by Sai Konchada" } satisfies L,
   },
 } as const;
 
