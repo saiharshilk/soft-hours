@@ -67,11 +67,11 @@ export function Hero() {
         <div className="md:order-1 md:col-span-5 md:pb-6">
           <h1
             id="hero-title"
-            className="mist-in font-display text-[3.25rem] font-light leading-[0.98] tracking-[-0.01em] text-ink sm:text-[4.25rem] lg:text-[5.75rem]"
+            className="mist-in font-display text-[3.25rem] font-light leading-[0.98] tracking-[-0.01em] text-ink sm:text-[4.25rem] md:text-[3.75rem] lg:text-[5rem] xl:text-[5.75rem]"
             style={{ animationDelay: "300ms" }}
           >
             {site.hero.headline.map((line) => (
-              <span key={line.en} className="block">
+              <span key={line.en} className="block whitespace-nowrap">
                 {t(line)}
               </span>
             ))}
